@@ -7,4 +7,4 @@ mkdir resper_frontend && cd resper_frontend &&
 git clone https://github.com/asharm10/Front-End-With-Veutify.git &&
 cd Front-End-With-Veutify && 
 
-npm install && screen -d -m npm run serve && sleep 10
+npm install && screen -d -m npm run build && sleep 10
