@@ -2,6 +2,6 @@
     "instances": [{
         "name": "resper-frontend-A",
         "ami": "ami-07d9b9ddc6cd8dd30",
-        "instance_type": "t2.nano"
+        "instance_type": "t2.micro"
     }]
 }
