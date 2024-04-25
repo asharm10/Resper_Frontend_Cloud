@@ -1,7 +1,4 @@
 #!/bin/bash
-
-exec > >(tee ~ubuntu/user-data.log | logger -t user-data -s 2>/dev/console) 2>&1
-
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash &&
 source ~/.nvm/nvm.sh &&
 nvm install 17.3.0 &&
